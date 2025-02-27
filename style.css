@@ -1,0 +1,180 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 300px;
+}
+
+:root{
+    --cor1:#FAEEE2;
+    --cor2:#FFCC69;
+    --cor3:#7651DC;
+    --cor4:#DCD1FC;
+}
+
+.container_Grid_Geral{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    ;
+    grid-area: 
+    'A B C D'
+    ''
+    
+    
+    ;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 50px;
+    height: 100vh;
+}
+
+/* DIV 1 CONTAINER 1 */
+
+.container_1{
+   background-color: var(--cor1);
+   padding: 20px;
+   border-radius: 20px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   justify-items: center;
+}
+
+.container_1 p{
+   margin-bottom: 30px;
+}
+
+.container_1 p > strong{
+    color: var(--cor3);
+}
+
+.container_1 img{
+    width: 250px;
+}
+
+.font_letter{
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+    width: 150px;
+}
+
+/* DIV 2 CONTAINER 2 */
+
+.container_2{
+    background-color: var(--cor1);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    grid-column: 1;
+ }
+
+ .container_2 p{
+    margin-bottom: 30px;
+ }
+
+
+ /* DIV 3 CONTAINER 3 */
+
+ .container_3{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2 ;
+    background-color: var(--cor3);
+    padding: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+ }
+
+ .font_letter_big{
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+ }
+
+ .x10_yelow{
+    color: var(--cor2);
+ }
+
+ .font_white{
+    color: white;
+    font-family: "Playwrite IT Moderna", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ /* DIV 4 CONTAINER 4 */
+
+ .container_4{
+    grid-column: 2;
+    grid-row: 2 / 3;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* DIV 5 CONTAINER 5 */
+
+ .container_5{
+    grid-column: 3;
+    grid-row: 2 / 3;
+ }
+
+
+
+
+
+
+
+ /* DIV 6 CONTAINER 6 */
+
+ .container_6{
+    grid-column: 4;
+    grid-row: 0 / 4;
+ }
+
