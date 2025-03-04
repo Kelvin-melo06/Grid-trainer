@@ -24,15 +24,8 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     ;
-    grid-area: 
-    'A B C D'
-    ''
-    
-    
-    ;
     justify-items: center;
     align-items: center;
-    grid-gap: 50px;
     height: 100vh;
 }
 
@@ -47,6 +40,13 @@ img{
    flex-direction: column;
    align-content: center;
    justify-items: center;
+   width: 280px;
+   height: 410px;
+   margin-top: 20px;
+}
+
+.container_1 img{
+   width: 200px;
 }
 
 .container_1 p{
@@ -82,6 +82,11 @@ img{
     align-content: center;
     justify-items: center;
     grid-column: 1;
+    width: 298px;
+ }
+
+ .container_2 img{
+   width: 100%;
  }
 
  .container_2 p{
@@ -93,7 +98,7 @@ img{
 
  .container_3{
     grid-column: 2 / 4;
-    grid-row: 1 / 2 ;
+    grid-row: 1 / 2;
     background-color: var(--cor3);
     padding: 100px;
     border-radius: 20px;
@@ -128,53 +133,126 @@ img{
  }
 
 
-
-
-
-
-
-
-
-
-
  /* DIV 4 CONTAINER 4 */
 
  .container_4{
     grid-column: 2;
-    grid-row: 2 / 3;
+    grid-row: 2;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
  }
 
+ .container_4 img{
+   width: 250px;
+ }
 
+ .font_letter{
+   font-family: "Playwrite IT Moderna", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   font-size: 30px;
+   width: 150px;
+}
 
+.font_letter_4{
+   font-size: 70px;
+   margin-top: 40px;
+   text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
+.font_letter_normal{
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 20px;
+}
 
 
  /* DIV 5 CONTAINER 5 */
 
  .container_5{
     grid-column: 3;
-    grid-row: 2 / 3;
+    grid-row: 2;
+    background-color: var(--cor2);
+    padding: 20px;
+    border-radius: 20px;
+    height: 461px;
+    margin-top: -100px;
  }
 
-
-
-
-
+ .font_letter_maintain{
+   font-family: "Playwrite IT Moderna", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   font-size: 30px;
+   margin-bottom: 20px;
+   max-width: 200px;
+ }
 
 
  /* DIV 6 CONTAINER 6 */
 
  .container_6{
     grid-column: 4;
-    grid-row: 0 / 4;
+    grid-row: 1 / 2;
+    background-color: var(--cor3);
+    padding: 20px;
+    display: flex;
+    border-radius: 20px;
+    margin: 20px;
+    height: 300px;
+    width: 400px;
  }
 
+ .container_6 img{
+   width: 200px;
+ }
+
+ .font_letter_followers{
+   font-family: "Playwrite IT Moderna", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   font-size: 25px;
+   margin-left: 20px;
+   color: white;
+ }
+
+
+ /* DIV 7 CONTAINER 7 */
+
+ .container_7{
+   grid-column: 4;
+   grid-row: 2;
+   background-color: var(--cor4);
+   padding: 20px;
+   border-radius: 20px;
+   width: 340px;
+   height: 570px;
+   margin-top: -60px;
+ }
+
+ .font_letter_social{
+   font-family: "Playwrite IT Moderna", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+ .font_small{
+   margin: 20px;
+   font-family: "Playwrite IT Moderna", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   font-size: 20px;
+ }
