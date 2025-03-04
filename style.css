@@ -160,7 +160,7 @@ img{
    width: 150px;
 }
 
-.font_letter_4{
+.font_letter_number{
    font-size: 70px;
    margin-top: 40px;
    text-align: center;
@@ -222,6 +222,7 @@ img{
    font-size: 25px;
    margin-left: 20px;
    color: white;
+   align-self: center;
  }
 
 
